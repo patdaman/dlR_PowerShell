@@ -26,9 +26,22 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Compile Include="Script.ps1" />
+    <Folder Include="Azure\" />
+    <Folder Include="Admin\" />
+    <Folder Include="Database\" />
+    <Folder Include="FireDaemon\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Invoke-MsBuild.psm1" />
+    <Compile Include="Admin\Powershell_Exe_CMD_Remotely.ps1" />
+    <Compile Include="Azure\RestoreDatabase.ps1" />
+    <Compile Include="Azure\SetUpAzureAutomatedBackup.ps1" />
+    <Compile Include="Database\BuildDatabaseProject.ps1" />
+    <Compile Include="Database\BuildWarehouse.ps1" />
+    <Compile Include="Database\DeployDacpac.ps1" />
+    <Compile Include="Database\RestoreDbToLocal.ps1" />
+    <Compile Include="FireDaemon\Email_Service_Failure.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />

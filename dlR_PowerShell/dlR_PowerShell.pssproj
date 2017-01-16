@@ -38,7 +38,6 @@
     <Compile Include="Azure\RestoreDatabase.ps1" />
     <Compile Include="Azure\SetUpAzureAutomatedBackup.ps1" />
     <Compile Include="Database\BuildDatabaseProject.ps1" />
-    <Compile Include="Database\BuildWarehouse.ps1" />
     <Compile Include="Database\DeployDacpac.ps1" />
     <Compile Include="Database\RestoreDbToLocal.ps1" />
     <Compile Include="FireDaemon\Email_Service_Failure.ps1" />

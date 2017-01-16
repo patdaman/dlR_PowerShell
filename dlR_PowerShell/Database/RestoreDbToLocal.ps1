@@ -26,7 +26,7 @@ function Restore-Database( $DatabaseName )
 	Copy-Item $LatestBakFile.FullName $LocalTempDir
 	Write-Host "Finished."
 
-	# This part not working yet -DT
+	# This part not working yet -PdlR
 	##Restore DB	
 	#$FullBackupPath = $LocalTempDir+"\"+$LatestBakFile.Name
 	#Write-Host "Restoring database " $FullBackupPath " ..."

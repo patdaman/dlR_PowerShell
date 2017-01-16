@@ -1,3 +1,0 @@
-#
-# BuildWarehouse.ps1
-#

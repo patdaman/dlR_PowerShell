@@ -35,6 +35,8 @@
   <ItemGroup>
     <Compile Include="Admin\Invoke-MsBuild.psm1" />
     <Compile Include="Admin\Powershell_Exe_CMD_Remotely.ps1" />
+    <Compile Include="Azure\GeoRedundancy_PowershellCommands.ps1" />
+    <Compile Include="Azure\GetGeoReplicationHealth.ps1" />
     <Compile Include="Azure\RestoreDatabase.ps1" />
     <Compile Include="Azure\SetUpAzureAutomatedBackup.ps1" />
     <Compile Include="Database\BuildDatabaseProject.ps1" />
